@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-title {
+.title {
   font-family: "Roboto Bold", sans-serif;
 }
 
@@ -22,6 +22,8 @@ title {
 .text {
   font-family: "Roboto Reguiar", sans-serif;
 }
+
+
 
 .logo {
   font-family: "Raleway Bold", sans-serif;
