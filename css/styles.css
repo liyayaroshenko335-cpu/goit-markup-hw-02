@@ -11,6 +11,20 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .title {
   font-family: "Roboto Bold", sans-serif;
 }
@@ -23,7 +37,11 @@ a {
   font-family: "Roboto Reguiar", sans-serif;
 }
 
+.button {
+  cursor: pointer;
+}
 
+/*!========HEDER====================*/
 
 .logo {
   font-family: "Raleway Bold", sans-serif;
@@ -39,7 +57,7 @@ a {
   color: #2e2f42;
 }
 
-.header-navigation-menu-subtitle {
+.navigation-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -47,15 +65,29 @@ a {
   color: #2e2f42;
 }
 
-.header-address-menu-text {
-  font-weight: 400;
+.navigation-menu-link:hover,
+.navigation-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.main-hero-title {
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+.header address {
+  font-style: normal;
+}
+
+/*!================HERO======*/
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -64,15 +96,21 @@ a {
   color: #fff;
 }
 
-.main-hero-subtitle {
+.hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background: #4d5ae5;
 }
 
-.main-features-menu-subtitle {
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -80,15 +118,14 @@ a {
   color: #2e2f42;
 }
 
-.main-features-menu-text {
-  font-weight: 400;
+.features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.main-team-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -97,7 +134,7 @@ a {
   color: #2e2f42;
 }
 
-.main-team-menu-subtitle {
+.team-image-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,8 +143,7 @@ a {
   color: #2e2f42;
 }
 
-.main-team-menu-text {
-  font-weight: 400;
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -115,7 +151,7 @@ a {
   color: #434455;
 }
 
-.main-portfolio-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -124,7 +160,7 @@ a {
   color: #2e2f42;
 }
 
-.main-portfolio-subtitle {
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -132,8 +168,7 @@ a {
   color: #2e2f42;
 }
 
-.main-portfolio-text {
-  font-weight: 400;
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -145,9 +180,107 @@ a {
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.header {
+}
+.header-navigation {
+}
+.header-navigation-logo {
+}
+.logo {
+}
+.logo-studio {
+}
+.header-navigation-menu-list {
+}
+.header-navigation-menu-item {
+}
+.header-navigation-menu-subtitle {
+}
+.subtitle {
+}
+.header-address {
+}
+.header-address-menu-list {
+}
+.header-address-menu-item {
+}
+.header-address-menu-text {
+}
+.text {
+}
+
+.main {
+}
+.hero {
+  background: #2e2f42;
+}
+.main-hero-title {
+}
+.title {
+}
+.main-hero-button {
+}
+.button {
+}
+.main-features {
+}
+.main-features-title {
+}
+.main-features-menu-list {
+}
+.main-features-menu-item {
+}
+.main-features-menu-subtitle {
+}
+.subtitle {
+}
+.main-features-menu-text {
+}
+.text {
+}
+.main-team {
+}
+.main-team-title {
+}
+.main-team-menu-list {
+}
+.main-team-menu-item {
+}
+.main-team-menu-icon {
+}
+.main-team-menu-subtitle {
+}
+.main-team-menu-text {
+}
+.main-portfolio {
+}
+.main-portfolio-title {
+}
+.main-portfolio-item {
+}
+.main-portfolio-icon {
+}
+.main-portfolio-subtitle {
+}
+.main-portfolio-text {
+}
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+}
+.logo {
+}
+.footer-logo-studio {
+}
+.footer-text {
+}
+.text {
 }
