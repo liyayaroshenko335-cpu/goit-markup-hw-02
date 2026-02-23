@@ -134,6 +134,10 @@ a {
   background-color: #f4f4fd;
 }
 
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
