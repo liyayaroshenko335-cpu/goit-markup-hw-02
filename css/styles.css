@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: #434455;
+  background-color: #FFFFFF 
 }
 
 ul {
@@ -12,12 +13,12 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
+  
+  
+  
   margin: -1px;
   border: 0;
-  padding: 0;
+  
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -44,7 +45,7 @@ a {
 /*!========HEDER====================*/
 
 .logo {
-  font-family: "Raleway Bold", sans-serif;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -151,13 +152,18 @@ a {
   color: #434455;
 }
 
+.portfolio {
+  background-color: #F4F4FD;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
