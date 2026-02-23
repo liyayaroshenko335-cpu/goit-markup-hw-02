@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 
 ul {
@@ -161,9 +161,7 @@ a {
   color: #434455;
 }
 
-.portfolio {
-  background: #ffffff;
-}
+
 
 
    
