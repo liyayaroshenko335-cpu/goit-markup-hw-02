@@ -130,6 +130,10 @@ a {
   color: #434455;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -137,6 +141,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-image-subtitle {
@@ -157,7 +162,7 @@ a {
 }
 
 .portfolio {
-  background-color: none;
+  background-color: #f4f4fd;
 }
 
 .portfolio-title {
@@ -167,7 +172,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
